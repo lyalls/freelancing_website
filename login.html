@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register</title>
+    <link rel="stylesheet" href="./login.css">
+
+    <script src="./js/three.r119.min.js"></script>
+    <script src="./js/vanta.waves.min.js"></script>
+</head>
+
+<body>
+    <section id="content">
+        <div id="content-div">
+            <div id="login-div">
+                <div id="login-text">
+                    <p>Login</p>
+                </div>
+                <div id="login-btn">
+                    <button id="parent-btn">Parent</button>
+                    <button id="student-btn">Student</button>
+                    <button id="teacher-btn">Teacher</button>
+                </div>
+
+                <div id="parent-box">
+                    <form action="">
+                        <div class="canditate-text">
+                            <p>sign in as a parent</p>
+                        </div>
+                        <div class="canditate-input">
+                            <input type="text" name="parentName" id="parentName" placeholder="Parent Name" required>
+                        </div>
+                        <div class="canditate-input">
+                            <input type="password" name="parentPassword" id="parentPassword"
+                                placeholder="Parent Password" required>
+                        </div>
+                        <div class="canditate-btn btn-grp">
+                            <input type="button" value="Login">
+                        </div>
+                    </form>
+                </div>
+                <div id="student-box">
+                    <form action="">
+                        <div class="canditate-text">
+                            <p>sign in as a student</p>
+                        </div>
+                        <div class="canditate-input">
+                            <input type="text" name="studentName" id="studentName" placeholder="Student Name" required>
+                        </div>
+                        <div class="canditate-input">
+                            <input type="password" name="studentPassword" id="studentPassword"
+                                placeholder="Student Password" required>
+                        </div>
+                        <div class="canditate-btn btn-grp">
+                            <input type="button" value="Login">
+                        </div>
+                    </form>
+                </div>
+                <div id="teacher-box">
+                    <form action="">
+                        <div class="canditate-text">
+                            <p>sign in as a teacher</p>
+                        </div>
+                        <div class="canditate-input">
+                            <input type="text" name="teacherName" id="teacherName" placeholder="Teacher Name" required>
+                        </div>
+                        <div class="canditate-input">
+                            <input type="password" name="teacherPassword" id="teacherPassword"
+                                placeholder="Teacher Password" required>
+                        </div>
+                        <div class="canditate-input">
+                            <input type="text" name="teacherCode" id="teacherCode" placeholder="Teacher's Code"
+                                required>
+                        </div>
+                        <div class="canditate-btn btn-grp">
+                            <input type="button" value="Login">
+                        </div>
+                    </form>
+                </div>
+                <div id="acc-create">
+                    <p>don't have an account ? <span id="sign-up" class="link"> sign up </span> </p>
+                </div>
+
+            </div>
+            <div id="register-div">
+                <div id="login-text">
+                    <p>create an account</p>
+                </div>
+
+                <div id="parent-box">
+                    <form action="">
+                        <div class="canditate-input">
+                            <input type="text" name="userName" id="userName" placeholder="Username" required>
+                        </div>
+                        <div class="canditate-input">
+                            <input type="email" name="userMail" id="userMail" placeholder="Email Address" required>
+                        </div>
+                        <div class="canditate-input">
+                            <input type="password" name="userPassword" id="userPassword" placeholder="Create Password"
+                                required>
+                        </div>
+                        <div class="canditate-input">
+                            <input type="password" name="confirmPassword" id="confirmPassword"
+                                placeholder="Confirm Password" required>
+                        </div>
+                         <!--
+                        <div id="laptop-check">
+                            <div id="laptop-text">
+                                <p>Do You Have Laptop?</p>
+                            </div>
+                            <div id="radio-btn">
+                                <div class="radio-option">
+                                    <input type="radio" name="laptop" id="lap-yes">
+                                    <label for="lap-yes">Yes</label>
+                                </div>
+                                <div class="radio-option">
+                                    <input type="radio" name="laptop" id="lap-no">
+                                    <label for="lap-no">No</label>
+                                </div>
+                            </div> -->
+                        </div>
+                        <div class="canditate-btn">
+                            <input type="button" value="Sign Up">
+                        </div>
+                    </form>
+                </div>
+                <div id="acc-create">
+                    <p>already have an account ? <span id="log-in" class="link"> log in </span> </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/login.js"></script>
+</body>
+
+</html>
